@@ -21,7 +21,7 @@ section {
 .page5 {background: url(../images/back_01.png);}
 .page6 {background-image: url(../images/back_06.png);}
 .page7 {background: #fff;}
-
+#footer{background-image: url(../images/back_07.png);}
 
 /*오른쪽 점메뉴*/
 .menu_r{position:fixed;top:50%;right:15px;transform: translateY(-50%);z-index: 50;}
@@ -421,6 +421,14 @@ section {
 #page6 .foot2 a:hover{color:#000;}
 
 
+/*----footer----*/
+#footer{width:100%;height:100px; position: absolute;  } 
+#footer .foot3{width:1500px;height:70px; position: absolute;  margin: 0 auto; text-align: center; font:bold 13px "Malgun Gothic"; color:#fff; margin-top: 10px;}
+#footer .foot3 h2{font:bold 13px "Malgun Gothic"; color:#fff; margin-top: 20px; text-align: center; }
+
+
+
+/*-----page7-----*/
 #page7 {
     width: 1520px;
     height: 750px;
